@@ -1,0 +1,40 @@
+/*Projects section */
+#projects-section{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.project-headline{
+  display:block;
+  font-size: 5.5rem;
+}
+
+.project-content{
+  position:relative;
+  width:50%;
+  float:right;
+  /* background-color: orange; */
+}
+
+#projects-section h2,h3,p{
+  color:white;
+}
+
+.project-heading{
+  text-align:right;
+}
+.coding-list{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  color:white;
+}
+.languages{
+  list-style: none;
+}
+.project-images{
+  position:relative;
+  height:300px;
+  width:300px;
+}

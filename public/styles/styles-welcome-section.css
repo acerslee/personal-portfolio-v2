@@ -1,0 +1,22 @@
+/*Welcome section */
+
+#welcome-section{
+  color:white;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  height:60vh;
+  font-family:'Roboto',serif;
+}
+
+h1{
+  font-size:7rem;
+  margin: 2px auto 0.5px auto;
+}
+
+#welcome-section p{
+  font-size:2rem;
+}
+
+/*End welcome section */

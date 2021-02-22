@@ -1,0 +1,31 @@
+/* Closing section */
+#closer{
+  padding-top:2rem;
+  width:80%;
+  margin: 0 auto 0 auto;
+  text-align:center;
+  color:white;
+}
+
+#closer p{
+  margin-right:3rem;
+  color:white;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.socials-links {
+  display:flex;
+  justify-content: space-around;
+  margin: 20px auto 20px auto;
+}
+
+.socials{
+    /* margin: 0 auto 0 auto; */
+    color:orange;
+}
+
+
+.copyright{
+  text-align: center;
+}
+

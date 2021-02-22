@@ -1,0 +1,30 @@
+#personal-section{
+  height:70rem;
+  padding-top:2rem;
+}
+
+.biography{
+  width:60%;
+  margin: 0 auto 0 auto;
+}
+
+#portrait{
+  width:45rem;
+  height:45rem;
+  margin: 0 1rem 0 2rem;
+  float:left;
+}
+
+.about_me{
+  width:50%;
+  float:right;
+  font-size:1.9rem;
+  margin-top:2rem;
+}
+.language_list{
+  list-style: none;
+}
+
+#personal-section p,h2,.language_list{
+  color:white;
+}

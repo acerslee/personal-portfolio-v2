@@ -16,7 +16,7 @@ const FootersList = ({socials}) => (
         />
       )
     })}
-    <p class='copyright'>©{date} Designed and Built by Alex Lee</p>
+    <p className='copyright'>©{date} Designed and Built by Alex Lee</p>
   </div>
 );
 

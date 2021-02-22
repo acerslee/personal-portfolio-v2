@@ -1,11 +1,11 @@
 const PersonalSection = () => (
   <div id = "personal-section">
-    <div class = "biography">
+    <div className = "biography">
       <img id = "portrait" src= "/photos/portfolio_bw.png" alt="brand logo" />
-      <div class = "about_me">
+      <div className = "about_me">
         <p>I previously came from an Operations & Project Management background. Technology has always been an interest and I wanted to find a way to be creative and build new things! See my growth as a software engineer below</p>
         <h2>I am currently coding or learning the following:</h2>
-        <ul class = "language_list">
+        <ul className = "language_list">
           <li>HTML5 & CSS3</li>
           <li>JavaScript (ES6)</li>
           <li>jQuery</li>

@@ -6,26 +6,15 @@ import Project from './components/Project.js';
 import FootersList from './componentsList/FootersList.js';
 import {projects, socials} from './data/projectData.js';
 
-class App extends React.Component {
-  constructor(props){
-    super(props)
 
-    this.state = {
-      projects: projects
-    }
-  }
-
-  render() {
-    return(
-      <div>
-        <Header />
-        <Welcome />
-        <PersonalSection />
-        <Project />
-        <FootersList socials = {socials}/>
-      </div>
-    )
-  }
-};
+const App = () => (
+  <div className = 'app-list'>
+    <Header />
+    <Welcome />
+    <PersonalSection />
+    <Project projects = {projects}/>
+    <FootersList socials = {socials}/>
+  </div>
+);
 
 export default App;

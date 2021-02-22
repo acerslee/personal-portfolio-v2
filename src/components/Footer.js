@@ -1,16 +1,13 @@
 const Footer = ({title, link, icon}) => (
-  <footer>
-    <div id='closer'>
-      <div className='socials-links'>
-        <a
-          className = 'socials'
-          title={title}
-          href= {link}>
-          <i className={icon}></i>
-        </a>
-      </div>
-    </div>
-  </footer>
+  <a
+    className = 'socials'
+    title={title}
+    href= {link}
+    rel="noreferrer"
+    target = "_blank">
+    <i className={icon}></i>
+
+  </a>
 );
 
 export default Footer;

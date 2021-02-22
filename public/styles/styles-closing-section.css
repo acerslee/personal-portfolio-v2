@@ -14,16 +14,16 @@
 }
 
 .socials-links {
+  width:50%;
   display:flex;
   justify-content: space-around;
-  margin: 20px auto 20px auto;
+  margin: 2rem auto 2rem auto;
 }
 
 .socials{
     /* margin: 0 auto 0 auto; */
     color:orange;
 }
-
 
 .copyright{
   text-align: center;

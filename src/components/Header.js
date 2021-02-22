@@ -8,12 +8,17 @@ const Header = () => (
         <li className="nav-link"><a href="/">About Me</a></li>
         <li className="nav-link"><a href="#projects">Projects</a></li>
         <li className="nav-link"><a href="/contact">Contact</a></li>
+        <li className="nav-link">Add Resume button here</li>
       </ul>
+
+      {/* only show once screen size reaches a certain width */}
       <div className="hamburger">
         <div className="menu"></div>
         <div className="menu"></div>
         <div className="menu"></div>
       </div>
+      {/*  */}
+
     </nav>
   </header>
 );

@@ -1,3 +1,5 @@
+// import '../../styles-nav-bar.css'
+
 const Header = () => (
   <header id = "header">
     <nav id="navbar">

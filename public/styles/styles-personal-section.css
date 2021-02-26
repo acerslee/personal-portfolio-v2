@@ -1,5 +1,5 @@
 #personal-section{
-  height:70rem;
+  height:100%;
   padding-top:2rem;
 }
 
@@ -27,4 +27,24 @@
 
 #personal-section p,h2,.language_list{
   color:white;
+}
+
+@media only screen and (max-width:900px) {
+  .biography {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+  }
+  #portrait{
+    width: 100%;
+    height:100%;
+    margin: 0 auto 0 auto;
+  }
+
+  .about_me {
+    text-align:center;
+    font-size:3rem;
+    width: 100%;
+  }
+
 }

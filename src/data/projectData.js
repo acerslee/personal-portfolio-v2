@@ -3,7 +3,13 @@ const projects = [
     id: 1,
     heading: 'Twiddler',
     description: 'This is a project that I\'ve worked on the Front-End Development for a precourse assignment at bootcamp',
-    link: 'https://github.com/acerslee/personal-portfolio'
+    link: 'https://github.com/acerslee/seip2101-twiddler'
+  },
+  {
+    id: 2,
+    heading: 'Weather App',
+    description: 'This is a simple weather app widget that shows the current weather condition based on the location coordinates inputted.',
+    link: 'https://github.com/acerslee/weather-app'
   }
 ];
 

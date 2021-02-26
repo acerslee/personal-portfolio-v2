@@ -13,8 +13,8 @@
 
 .nav-list{
   display:flex;
-  justify-content:space-around;
-  width:30%;
+  justify-content:space-evenly;
+  width:28%;
   font-size:20px;
   list-style:none;
 }
@@ -26,6 +26,13 @@
 
 .nav-link a:hover{
   color:#cc7a00;
+}
+
+.resume {
+  border: 2px solid;
+  color:white;
+  background: rgba(255, 69, 0, 0.3);
+  border-color: #404040;
 }
 
 .hamburger{

@@ -1,11 +1,14 @@
 #personal-section{
   height:100%;
   padding-top:2rem;
+  width:80%;
+  margin: 0 auto 0 auto;
 }
 
 .biography{
   display:flex;
   flex-direction:row;
+  width:90%;
 }
 
 #portrait{

@@ -10,7 +10,7 @@ import {projects, socials} from './data/projectData.js';
 const App = () => (
   <div className = 'app-list'>
     <Header />
-    {/* <Welcome /> */}
+    <Welcome />
     {/* <PersonalSection /> */}
     <ProjectsList projects = {projects}/>
     <FootersList socials = {socials}/>

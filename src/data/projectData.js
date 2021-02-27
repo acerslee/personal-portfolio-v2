@@ -5,7 +5,7 @@ const projects = [
     description: 'This is a project that I\'ve worked on the Front-End Development for a precourse assignment at bootcamp',
     languages: ['JavaScript(jQuery)'],
     link: 'https://github.com/acerslee/seip2101-twiddler',
-    img_link: '/photos/projects/twiddler.png'
+    img_link: '../images/projects/twiddler.PNG'
   },
   {
     id: 2,

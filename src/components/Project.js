@@ -1,6 +1,6 @@
 const Project = () => (
   <div id = "projects-section">
-    <h2 className = "project-headline">Here are some projects that I've worked on.</h2>
+    <h2 className = "project-headline">Here are some projects that I've worked on!</h2>
       <div className = "projects">
         <div className = "project-content">
           <h3 className = "project-heading">Twiddler</h3>

@@ -38,3 +38,18 @@
   height:300px;
   width:300px;
 }
+
+@media only screen and (max-width:900px) {
+  #projects-section{
+    margin-top:4rem;
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    height: 100%;
+  }
+
+  .project-headline{
+    text-align:center;
+    font-size:5rem;
+  }
+}

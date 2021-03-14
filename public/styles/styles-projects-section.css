@@ -28,7 +28,12 @@
   z-index: 1;
 }
 
-#projects-section h2,h3,p{
+#projects-section h3{
+  color:white;
+  font-size:3.5rem;
+}
+
+#projects-section p{
   color:white;
   font-size:2rem;
 }
@@ -62,12 +67,12 @@
 }
 
 .modal-click{
-  color: #8D8741;
+  color: #8D8741 !important;
 }
 
 .modal-click:hover{
   cursor:pointer;
-  color: #8D4752;
+  color: #8D4752 !important;
 }
 
 @media only screen and (max-width:900px) {

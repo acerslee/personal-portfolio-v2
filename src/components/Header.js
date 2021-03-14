@@ -16,7 +16,6 @@ const Header = () => (
       <div className="hamburger" onClick = {() => {showNav()}}>
         <div className="menu"></div>
         <div className="menu"></div>
-        <div className="menu"></div>
       </div>
       {/*  */}
 

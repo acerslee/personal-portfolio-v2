@@ -1,15 +1,19 @@
 /* Closing section */
 #closer{
   padding-top:2rem;
-  width:80%;
+  /* width:100%; */
   margin: 0 auto 0 auto;
   text-align:center;
-  color:#8D8741;
+  background-color: #8D8741;
+}
+
+#closer > * {
+  background-color:#8D8741;
 }
 
 #closer p{
   margin-right:3rem;
-  color:#8D8741;
+  color:white;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -18,14 +22,17 @@
   display:flex;
   justify-content: space-around;
   margin: 2rem auto 2rem auto;
+
 }
 
 .socials{
     /* margin: 0 auto 0 auto; */
     color:#BC986A;
+    background-color:#8D8741;
 }
 
 .copyright{
   text-align: center;
+  margin :0;
 }
 

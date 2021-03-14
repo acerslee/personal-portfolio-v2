@@ -4,12 +4,12 @@
   width:80%;
   margin: 0 auto 0 auto;
   text-align:center;
-  color:white;
+  color:#8D8741;
 }
 
 #closer p{
   margin-right:3rem;
-  color:white;
+  color:#8D8741;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -22,7 +22,7 @@
 
 .socials{
     /* margin: 0 auto 0 auto; */
-    color:orange;
+    color:#BC986A;
 }
 
 .copyright{

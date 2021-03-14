@@ -3,16 +3,16 @@ const projects = [
     id: 1,
     heading: 'Twiddler',
     description: 'This is a project that I\'ve worked on the Front-End Development for a precourse assignment at bootcamp',
-    languages: ['JavaScript(jQuery)'],
+    tools: ['JavaScript(jQuery)'],
     link: 'https://github.com/acerslee/seip2101-twiddler',
     img_link: '../images/projects/twiddler.PNG'
   },
   {
     id: 2,
-    heading: 'Weather App',
-    description: 'This is a simple weather app widget that shows the current weather condition based on the location coordinates inputted.',
-    languages: ['React'],
-    link: 'https://github.com/acerslee/weather-app'
+    heading: 'Cat-walk',
+    description: 'This is the Front-End Capstone that I\'ve created in my bootcamp. In a team of four, we\'ve created a retail website to mimic the user experience of online retail shopping.',
+    tools: ['React', 'Node.js', 'Webpack', 'Bootstrap', 'MaterialUI', 'Jest'],
+    link: 'https://github.com/Team-Emus/FEC'
   }
 ];
 
@@ -40,7 +40,6 @@ const socials = [
     title: 'E-Mail',
     link: 'mailto:ahjlee712@gmail.com',
     icon: 'fas fa-envelope fa-5x'
-
   }
 ];
 

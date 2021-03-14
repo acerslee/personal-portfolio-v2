@@ -6,7 +6,6 @@ const Footer = ({title, link, icon}) => (
     rel="noreferrer"
     target = "_blank">
     <i className={icon}></i>
-
   </a>
 );
 

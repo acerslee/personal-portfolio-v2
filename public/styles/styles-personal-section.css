@@ -20,6 +20,7 @@
 .about_me{
   width:50%;
   font-size:1.9rem;
+  color: #8D8741;
 }
 
 .language_list{
@@ -31,7 +32,7 @@
 }
 
 #personal-section p,h2,.language_list{
-  color:white;
+  color: #8D8741;
 }
 
 /* for the smaller screen */

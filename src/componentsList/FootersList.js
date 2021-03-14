@@ -5,7 +5,7 @@ const date = new Date().getFullYear();
 const FootersList = ({socials}) => (
   <div id = 'closer'>
     <h1>Check out my socials below!</h1>
-    <p>Always in the mood to chat about codes, photography, or even just getting some coffee.</p>
+    <p>Always in the mood to chat about coding, photography, or even coffee.</p>
     <div className = 'socials-links'>
     {socials.map(social => {
       return (
@@ -21,6 +21,5 @@ const FootersList = ({socials}) => (
     <p className='copyright'>©{date} Designed and Built by Alex Lee</p>
   </div>
 );
-
 
 export default FootersList;

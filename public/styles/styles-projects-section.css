@@ -61,6 +61,14 @@
   margin: 0 0.5rem 0 0.5rem;
 }
 
+.modal-click{
+  color: #8D8741;
+}
+
+.modal-click:hover{
+  cursor:pointer;
+  color: #8D4752;
+}
 
 @media only screen and (max-width:900px) {
   #projects-section{

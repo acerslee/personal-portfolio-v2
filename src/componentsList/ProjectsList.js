@@ -2,9 +2,9 @@ import React, {useState} from 'react';
 import Modal from 'react-modal';
 import Project from '../components/Project.js';
 import ProjectModal from '../components/projectModal.js';
+import {projects} from '../data/portfolioData.js';
 
-const ProjectsList = ({projects}) => {
-
+const ProjectsList = () => {
   const [openModal, setOpenModal] = useState(false);
 
   Modal.setAppElement('body');

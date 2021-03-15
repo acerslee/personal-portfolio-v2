@@ -4,7 +4,7 @@ const Project = ({heading, description, tools, link, img_link}) => {
 
   let toolsArray;
   toolsArray = tools.map(tool => (
-      <li className = 'languages'>{tool} </li>
+      <li className = 'languages'>{tool}</li>
   ))
 
   return(

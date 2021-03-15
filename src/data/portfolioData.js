@@ -11,8 +11,19 @@ const projects = [
     id: 2,
     heading: 'Cat-walk',
     description: 'This is the Front-End Capstone that I\'ve created in my bootcamp. In a team of four, we\'ve created a retail website to mimic the user experience of online retail shopping.',
-    tools: ['React', 'Node.js', 'Webpack', 'Bootstrap', 'MaterialUI', 'Jest'],
+    tools: ['React', 'Node.js', 'Bootstrap', 'MaterialUI', 'Jest'],
     link: 'https://github.com/Team-Emus/FEC'
+  }
+];
+
+
+//these projects will be within the modal
+const modalProjects = [
+  {
+    id: 1,
+    heading: 'Github Repo Dashboard',
+    tools: ['React', 'Node.js', 'Express', 'MongoDB', 'Github Repo API'],
+    link: 'https://github.com/acerslee/github-repo'
   }
 ];
 
@@ -43,4 +54,4 @@ const socials = [
   }
 ];
 
-export {projects, socials};
+export {projects, modalProjects, socials};

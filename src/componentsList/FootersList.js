@@ -1,8 +1,9 @@
 import Footer from '../components/Footer.js';
+import {socials} from '../data/portfolioData.js';
 
 const date = new Date().getFullYear();
 
-const FootersList = ({socials}) => (
+const FootersList = () => (
   <div id = 'closer'>
     <h1>Check out my socials below!</h1>
     <p>Always in the mood to chat about coding, photography, or even coffee.</p>

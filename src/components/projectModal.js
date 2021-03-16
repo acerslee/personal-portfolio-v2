@@ -29,9 +29,15 @@ const ProjectModal = () => {
         <TableBody>
           {modalProjects.map(project => (
             <TableRow key = {project.id}>
-            <TableCell align="center" style ={{fontSize: 16}}>{project.heading}</TableCell>
+            <TableCell align="center" style ={{fontSize: 16}}>
+              {project.heading}</TableCell>
             <TableCell align="center" style ={{fontSize: 16}}>{project.tools}</TableCell>
-            <TableCell align="center" style ={{fontSize: 16}}>{project.link}</TableCell>
+            <TableCell
+              align="center"
+              style ={{fontSize: 16}}
+              numeric component="a" target = 'blank' href={project.link}>
+              {project.link}
+            </TableCell>
           </TableRow>
           ))}
         </TableBody>

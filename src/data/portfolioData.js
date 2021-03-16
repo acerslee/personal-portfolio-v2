@@ -22,7 +22,7 @@ const modalProjects = [
   {
     id: 1,
     heading: 'Github Repo Dashboard',
-    tools: ['React', 'Node.js', 'Express', 'MongoDB', 'Github Repo API'],
+    tools: ['React-  ', 'Node.js-  ', 'Express-  ', 'MongoDB-  ', 'Github Repo API'],
     link: 'https://github.com/acerslee/github-repo'
   }
 ];

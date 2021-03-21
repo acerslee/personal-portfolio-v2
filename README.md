@@ -1,3 +1,8 @@
+### Personal Portfolio
+
+Created with React via create-react-app. Maybe to be deployed on Netlify or Firebase
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Credits
+Thank you DevEd for the hamburger idea, and Brittany Chiang for the loading screen idea. Check their contents here:
+Brittany Chiang - https://github.com/bchiang7

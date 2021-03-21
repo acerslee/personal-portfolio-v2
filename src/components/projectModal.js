@@ -21,7 +21,7 @@ const ProjectModal = () => {
       <Table className={classes.table} stickyHeader = {true} aria-label="simple table">
         <TableHead>
           <TableRow>
-            <TableCell align="center" style ={{fontSize: 22}}>Project Name</TableCell>
+            <TableCell align="center" style ={{fontSize: 22, whiteSpace: 'nowrap'}}>Project Name</TableCell>
             <TableCell align="center" style ={{fontSize: 22, padding: 40}}>Tools Used</TableCell>
             <TableCell align="center" style ={{fontSize: 22}}>Github Link</TableCell>
           </TableRow>
@@ -29,13 +29,23 @@ const ProjectModal = () => {
         <TableBody>
           {modalProjects.map(project => (
             <TableRow key = {project.id}>
-            <TableCell align="center" style ={{fontSize: 16}}>
-              {project.heading}</TableCell>
-            <TableCell align="center" style ={{fontSize: 16}}>{project.tools}</TableCell>
             <TableCell
               align="center"
-              style ={{fontSize: 16}}
-              numeric component="a" target = 'blank' href={project.link}>
+              style ={{fontSize: 16, whiteSpace: 'nowrap'}}
+            >
+              {project.heading}
+            </TableCell>
+            <TableCell
+              align="center"
+              style ={{fontSize: 16, whiteSpace: 'nowrap'}}
+            >
+              {project.tools}
+            </TableCell>
+            <TableCell
+              align="center"
+              style ={{fontSize: 16, whiteSpace: 'nowrap'}}
+              numeric component="a" target = 'blank' href={project.link}
+            >
               {project.link}
             </TableCell>
           </TableRow>

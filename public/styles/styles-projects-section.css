@@ -9,7 +9,7 @@
 }
 
 .project-headline{
-  text-align:left;
+  /* text-align:left !important; */
   font-size: 2.5rem;
   color: #8D8741 !important;
 }
@@ -22,7 +22,7 @@
   /* border: 2px solid; */
   padding:5rem;
   margin-bottom:1rem;
-  width: 73%;
+  width: 100%;
   display:flex;
   flex-direction: row;
   z-index: 1;
@@ -82,7 +82,11 @@
   color: #8D4752 !important;
 }
 
-@media only screen and (max-width:900px) {
+.carousel{
+  display:none;
+}
+
+@media only screen and (max-width:1000px) {
   #projects-section{
     margin-top:4rem;
     display:flex;
@@ -96,7 +100,12 @@
     font-size:3rem;
   }
 
-  .project-content{
-    width:100%;
+  .bigger-project-container{
+    display:none;
+  }
+
+  .carousel{
+    display:initial;
+    /* width:50%; */
   }
 }

@@ -11,13 +11,13 @@
 }
 
 #closer h1{
-  color:white;
+  color:#FBEEC1;
   font-size: 5vh;
 }
 
 #closer p{
   margin-right:3rem;
-  color:white;
+  color:#FBEEC1;
   font-family:'Courier New', Courier, monospace;
 }
 
@@ -30,7 +30,7 @@
 
 .socials{
     /* margin: 0 auto 0 auto; */
-    color:#BC986A;
+    color:#FBEEC1;
 }
 
 .socials i{

@@ -32,7 +32,7 @@ tan - #FBEEC1
 }
 
 .nav-list a{
-  color: #f2f2f2;
+  color: #FBEEC1;
   text-decoration:none;
 }
 
@@ -101,6 +101,8 @@ tan - #FBEEC1
 .nav-active{
   transform:translateX(0%)
 }
+
+
 
 @keyframes navLinkFade {
   from{

@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import {projects} from '../data/portfolioData.js';
-// import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CarouselProjects = () => {
   const [index, setIndex] = useState(0);

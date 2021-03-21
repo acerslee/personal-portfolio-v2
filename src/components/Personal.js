@@ -10,7 +10,7 @@ const PersonalSection = () => (
           <li>JavaScript (Vanilla, ES6, jQuery)</li>
           <li>Node.js and Express</li>
           <li>SQL</li>
-          <li>MongoDB and Mongoose</li>
+          <li>MongoDB (Mongoose)</li>
           <li>React (Hooks, Jest)</li>
         </ul>
       </div>

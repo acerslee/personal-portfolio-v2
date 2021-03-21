@@ -10,20 +10,20 @@
   font-family:'Roboto',serif;
 }
 
-h1{
-  font-size:7rem;
-  margin: 2px auto 0.5px auto;
+.welcome-section-heading{
+  font-size:7rem !important;
+  margin: 2px auto 0.5px auto !important;
 }
 
-#welcome-section p{
+.welcome-section-paragraph{
   font-size:2rem;
   color: #8D8741;
 }
 
-/*End welcome section */
-/* @media only screen and (max-width: 900px) {
+/* End welcome section */
+@media only screen and (max-width: 900px) {
  body{
    display:flex;
    flex-direction: column;
  }
-} */
+}

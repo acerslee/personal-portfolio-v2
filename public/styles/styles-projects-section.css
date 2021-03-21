@@ -19,13 +19,13 @@
 }
 
 .project-content{
-  /* border: 2px solid; */
   padding:5rem;
   margin-bottom:1rem;
   width: 100%;
   display:flex;
   flex-direction: row;
   z-index: 1;
+  box-shadow: 0 10px 6px -6px #777;
 }
 
 #projects-section h3{
@@ -59,6 +59,7 @@
 .languages{
   list-style: none;
   margin: 0 0.5rem 0 0.5rem;
+  font-size: 1.3vw !important;
 }
 
 .project-images{
@@ -86,7 +87,7 @@
   display:none;
 }
 
-@media only screen and (max-width:1000px) {
+@media only screen and (max-width:900px) {
   #projects-section{
     margin-top:4rem;
     display:flex;
@@ -106,6 +107,5 @@
 
   .carousel{
     display:initial;
-    /* width:50%; */
   }
 }

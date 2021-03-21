@@ -1,3 +1,8 @@
+### Personal Portfolio
+
+Created with React via create-react-app. Maybe to be deployed on Netlify.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

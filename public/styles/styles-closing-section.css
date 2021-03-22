@@ -16,9 +16,10 @@
 }
 
 #closer p{
-  margin-right:3rem;
   color:#FBEEC1;
   font-family:'Courier New', Courier, monospace;
+  font-size: 1vw;
+  text-align:center;
 }
 
 .socials-links {
@@ -38,6 +39,6 @@
 }
 
 .copyright{
-  text-align: center;
   margin :0;
 }
+

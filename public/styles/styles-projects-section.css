@@ -94,7 +94,7 @@
   align-items: center;
 }
 
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1000px) {
   #projects-section{
     margin-top:4rem;
     display:flex;

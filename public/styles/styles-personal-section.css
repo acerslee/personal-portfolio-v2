@@ -37,7 +37,7 @@
 }
 
 /* for the smaller screen */
-@media only screen and (max-width:900px) {
+@media only screen and (max-width:1000px) {
   .biography {
     display:flex;
     justify-content:center;

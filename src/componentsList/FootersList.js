@@ -5,8 +5,8 @@ const date = new Date().getFullYear();
 
 const FootersList = () => (
   <div id = 'closer'>
-    <h1>Check out my socials below!</h1>
-    <p>Always in the mood to chat about coding, photography, or even coffee.</p>
+    <h1 className = 'footer-header'>Check out my socials below!</h1>
+    <p className = 'footer-paragraph'>Always in the mood to chat about coding, photography, or even coffee.</p>
     <div className = 'socials-links'>
     {socials.map(social => {
       return (

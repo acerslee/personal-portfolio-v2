@@ -4,6 +4,7 @@ import Project from '../components/Project.js';
 import ProjectModal from '../components/projectModal.js';
 import {projects} from '../data/portfolioData.js';
 import CarouselProjects from '../components/Carousel.js';
+import {Link} from 'react-router-dom';
 
 const ProjectsList = () => {
   const [openModal, setOpenModal] = useState(false);
@@ -33,8 +34,10 @@ const ProjectsList = () => {
 
       {/* only display carousel when screen is a certain width */}
       <CarouselProjects />
-
-      <p className = 'modal-click' onClick = {toggleModal}>Click here to see more of my projects</p>
+      <Link to = '/projects'>
+        <p className = 'modal-click'>Click here to see more of my projects.</p>
+      </Link>
+      {/* <p className = 'modal-click' onClick = {toggleModal}>Click here to see more of my projects</p>
       <Modal
         isOpen = {openModal}
         onRequestClose = {toggleModal}
@@ -42,7 +45,7 @@ const ProjectsList = () => {
         overlayClassName = 'myoverlay'
       >
       <ProjectModal />
-      </Modal>
+      </Modal> */}
     </div>
   )
 };

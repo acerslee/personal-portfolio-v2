@@ -1,10 +1,12 @@
-// import '../../styles-nav-bar.css'
 import showNav from '../javascript/query.js';
+import {Link} from 'react-router-dom';
 
 const Header = () => (
   <header id = "header">
     <nav id="navbar">
-      <img id = "logo" src= "../images/alex-lee-logo.png" alt="brand logo" />
+      <Link to = '/'>
+        <img id = "logo" src= "../images/alex-lee-logo.png" alt="brand logo" />
+      </Link>
       <ul className = "nav-list" id="toggleMenu">
         <li className="nav-link"><a href="#personal-section">About Me</a></li>
         <li className="nav-link"><a href="#projects-section">Projects</a></li>

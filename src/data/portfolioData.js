@@ -17,8 +17,8 @@ const projects = [
 ];
 
 
-//these projects will be within the modal
-const modalProjects = [
+//these projects will be within the projects page
+const otherProjects = [
   {
     id: 1,
     heading: 'Github Repo Dashboard',
@@ -54,4 +54,4 @@ const socials = [
   }
 ];
 
-export {projects, modalProjects, socials};
+export {projects, otherProjects, socials};

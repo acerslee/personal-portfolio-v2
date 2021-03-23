@@ -1,22 +1,12 @@
-import React, {useState} from 'react';
-import Modal from 'react-modal';
+import React from 'react';
 import Project from '../components/Project.js';
-import ProjectModal from '../components/projectModal.js';
 import {projects} from '../data/portfolioData.js';
 import CarouselProjects from '../components/Carousel.js';
 import {Link} from 'react-router-dom';
 
-const ProjectsList = () => {
-  const [openModal, setOpenModal] = useState(false);
-
-  Modal.setAppElement('body');
-
-  const toggleModal = () => {
-    setOpenModal(!openModal);
-  }
+const ProjectsList = () => (
 
   //in a smaller window resolution, turn your projects into a carousel
-  return(
     <div id = 'projects-section'>
       <h2 className = 'project-headline'>Some projects I've worked on</h2>
       <div className = 'bigger-project-container'>
@@ -34,20 +24,11 @@ const ProjectsList = () => {
 
       {/* only display carousel when screen is a certain width */}
       <CarouselProjects />
+
       <Link to = '/projects'>
         <p className = 'modal-click'>Click here to see more of my projects.</p>
       </Link>
-      {/* <p className = 'modal-click' onClick = {toggleModal}>Click here to see more of my projects</p>
-      <Modal
-        isOpen = {openModal}
-        onRequestClose = {toggleModal}
-        className = 'mymodal'
-        overlayClassName = 'myoverlay'
-      >
-      <ProjectModal />
-      </Modal> */}
     </div>
-  )
-};
+);
 
 export default ProjectsList;

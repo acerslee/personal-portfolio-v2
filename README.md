@@ -1,7 +1,6 @@
 ### Personal Portfolio
 
-Created with React via create-react-app. Maybe to be deployed on Netlify or Firebase
-
+Created with React via create-react-app. Deployed with Netlify
 
 # Getting Started with Create React App
 

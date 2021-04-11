@@ -1,6 +1,6 @@
 ### Personal Portfolio
 
-Created with React via create-react-app. Deployed with Netlify
+Created with React via create-react-app.
 
 # Getting Started with Create React App
 
